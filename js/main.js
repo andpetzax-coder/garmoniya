@@ -124,7 +124,7 @@
   if (shareBtn) {
     shareBtn.addEventListener("click", function () {
       var url = window.location.href;
-      var text = "Народный вокальный коллектив «Гармония» из Электроуглей - послушайте!";
+      var text = "Народный вокальный коллектив «Гармония» из Ногинска - послушайте!";
       if (navigator.share) {
         navigator.share({ title: document.title, text: text, url: url }).catch(function () {});
       } else if (navigator.clipboard) {
